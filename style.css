@@ -1,0 +1,29 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.calculator {
+    background: #222;
+    padding: 20px;
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+input {
+    grid-column: span 4;
+    padding: 15px;
+    font-size: 25px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    background: cyan;
+    border: none;
+    cursor: pointer;
+}
